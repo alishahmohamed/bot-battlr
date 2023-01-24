@@ -29,7 +29,7 @@ JavaScript
 CSS
 HTML
 Author
-This project was contributed by Trevor Febias
+This project was contributed by Alishah Mohamed
 
 License
 This project is licensed by ISC.
