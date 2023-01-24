@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from "react";
 import YourBotArmy from "./YourBotArmy";
 import BotCollection from "./BotCollection";
+import "../App.css";
 
 function BotsPage() {
   //start here with your code for step one
@@ -43,7 +44,11 @@ function BotsPage() {
 
   return (
     <div>
+      <div>
+      <h3 id="head">Your bot army</h3>
+      <p>Click on a bot to add it to your army:</p>
       <YourBotArmy army={army} handleRemove={removeFromArmy} releaseFromArmy={releaseFromArmy}/>
+      </div>
       <BotCollection handleAdd={addToArmy} bots={bots} releaseFromArmy={releaseFromArmy}/>
     </div>
   )
